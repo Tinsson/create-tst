@@ -1,0 +1,27 @@
+{
+  "name": "create-tst",
+  "version": "1.0.0",
+  "description": "a Cli for create web spa app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-tst": "bin/create-app.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "TinssonTai",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "execa": "^5.0.0",
+    "inquirer": "^7.3.3",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  }
+}

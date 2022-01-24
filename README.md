@@ -6,6 +6,7 @@
 git clone https://github.com/Tinsson/create-tst.git
 cd create-tst
 npm link
+npm install
 ```
 
 cli使用
